@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="zh-CN" xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+   <title>css样式</title>
+   <style type="text/css">
+       h1{
+	      width:900px;
+		  height:50px;
+		  font-size:24px;
+		  background:#ccc;
+		  line-height:50px;
+		  }
+	   .blue{
+	        background:blue;
+			}
+		span{
+		    color:blue;
+		    font-size:36px;
+			font-family:"隶书";
+			line-height:150%;
+			}
+		p{
+		 color:red;
+		 line-height:1.5em;
+		  }
+		 div{
+		     font-size:24px;
+			 font-family:"方正舒体";
+			 color:green;
+			 }
+		 li{
+		   font-weight:bold;
+		   font-family:"华文彩云";
+		   color:blue;
+		   }
+   </style>
+   <script type="text/javascript">
+       window.onload=function(){
+	       var main=document.getElementById('main');
+		   main.onmouseover=function(){
+		        this.className="blue";
+		   };
+		   main.onmouseout=function(){
+		        this.className="";
+		   };
+	   };
+   </script>
+</head>
+  <body>
+    <h1 id="main">1、拼着一切代价，奔你的前程。——巴尔扎克</h1>
+　　<p>2、当<span>时间的主人</span>，命运的主宰，灵魂的舵手。——罗斯福<br />
+　　3、当你将信心放在自己身上时，你将永远充满力量。</p>
+　　<h1>4、做了好事受到指责而仍坚持下去，这才是奋斗者的本色。——巴尔扎克</h1>
+　　<p>5、停止奋斗，生命也就停止了。——卡莱尔<br /></p>
+　　<div>7、对真理和知识的追求并为之奋斗，是人的最高品质之一。——爱因斯坦<br /></div>
+　　<ul>
+    <li>8、作了好事受到职责而坚持下去，这才是奋斗的本色。——巴尔扎克<br /></li>
+　　<li>9、凡事欲其成功，必要付出代价：奋斗。——爱默生<br /></li>
+    </ul>
+　　<div>10、脚跟立定以后，你必须拿你的力量和技能，自己奋斗。——萧伯纳</div>
+ 
+  
+  </body>
+
+</html>
